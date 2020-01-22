@@ -1,5 +1,5 @@
 # YetAnotherIConradRun - Linux Sysadmin Challenge
-Following /u/IConrads infrastructure list with a DevOps-y spin.
+Following /u/IConrad's infrastructure list with a DevOps spin.
 
 - [x]Set up a KVM hypervisor.
 
