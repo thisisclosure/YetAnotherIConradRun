@@ -1,3 +1,4 @@
+#Deprecated due to need to restart libvirtd service using systemctl
 FROM centos:7 as build
 
 RUN yum update && yum -y install qemu-kvm \
@@ -10,7 +11,7 @@ RUN yum update && yum -y install qemu-kvm \
     virt-viewer \
     bridge-utils
 
-#May need a VM
+#Need a VM
 RUN systemctl start libvirtd && systemctl enable libvirtd 
 
 WORKDIR /home/VM
